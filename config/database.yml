@@ -25,11 +25,11 @@ test:
   adapter: postgresql
   database: my_database_test
   pool: 5 #new
-  timeout:5000 #new
+  timeout: 5000 #new
 
 production:
   # <<: *default
-  adapter: sqlite3
+  adapter: postgresql
   database: my_database_production
   pool: 5
   timeout: 5000
